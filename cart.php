@@ -188,7 +188,7 @@ session_start();
                                         }
                                         ?>
                                         <td>
-                                            <?php echo $price_table; ?>
+                                            <?php echo "Rs ". $price_table; ?>
                                         </td>
                                         <td><input type="checkbox" name="removeitem[]" value="<?php echo $product_id ?>"></td>
                                         <td>
@@ -217,7 +217,7 @@ session_start();
                         $result_count = mysqli_num_rows($cart_result);
                         if ($result_count > 0) {
                             echo "
-                        <h4>Sub-Total: <strong class='text-2'> $total_price</strong></h4>
+                        <h4>Sub-Total: Rs <strong class='text-2'> $total_price</strong></h4>
                         
                        <button class='btn btn-dark'><a class='text-light' href='./index.php'>Continue Shopping</a></button>
                         

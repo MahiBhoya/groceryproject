@@ -51,7 +51,7 @@
                         <tr>
                         <td>$serial_number</td>
                         <td>$order_id</td>
-                        <td>$amount_due</td>
+                        <td>Rs $amount_due</td>
                         <td>$total_products</td>
                         <td>$invoice_number</td>
                         <td>$order_date</td>

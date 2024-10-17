@@ -33,7 +33,7 @@ function getProduct($numToDisplay = '')
             <div class='content'>
                 <span class='title fw-bold'>$product_title</span>
                 <div class='desc'>
-                    <span>\$$product_price</span>
+                    <span>Rs $product_price</span>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ function filterCategoryProduct()
             <div class='content'>
                 <span class='title fw-bold'>$product_title</span>
                 <div class='desc'>
-                    <span>\$$product_price</span>
+                    <span>Rs $product_price</span>
                     
                 </div>
             </div>
@@ -127,7 +127,7 @@ function filterBrandProduct()
             <div class='content'>
                 <span class='title fw-bold'>$product_title</span>
                 <div class='desc'>
-                    <span>\$$product_price</span>
+                    <span>Rs $product_price</span>
                    
                 </div>
             </div>
@@ -270,7 +270,7 @@ function viewDetails()
                                 </span>
                             </div>
                             <h4>
-                                \$$product_price
+                                Rs $product_price
                             </h4>
                             <p>
                                 $product_desc

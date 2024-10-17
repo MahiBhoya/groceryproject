@@ -10,9 +10,12 @@
 <body>
     <div class="container">
         <div class="categ-header">
-            <div class="sub-title">
-                <span class="shape"></span>
-                <h2>All Users</h2>
+            <div class="sub-title d-flex justify-content-between">
+                <div class="d-flex gap-2">
+                    <span class="shape"></span>
+                    <h2>All Users</h2>
+                </div>
+                
             </div>
         </div>
         <div class="table-data">
@@ -22,7 +25,7 @@
                     $get_user_query = "SELECT * FROM `user_table`";
                     $get_user_result = mysqli_query($con, $get_user_query);
                     $row_count = mysqli_num_rows($get_user_result);
-                    if($row_count!=0){
+                    if ($row_count != 0) {
                         echo "
                         <tr>
                         <th>User No.</th>
