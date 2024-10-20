@@ -66,7 +66,7 @@
                             <tr>
                             <td>$id_number</td>
                             <td>$user_id_name</td>
-                            <td>$amount_due</td>
+                            <td>Rs $amount_due</td>
                             <td>$invoice_number</td>
                             <td>$total_products</td>
                             <td>$order_date</td>
